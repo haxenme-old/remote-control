@@ -25,9 +25,10 @@ class RemoteControl {
 	public static var PLAY_PAUSE = 0x000010;
 	public static var NEXT = 0x000020;
 	public static var PREVIOUS = 0x000040;
-	public static var MENU_LONG_PRESS = 0x000200;
-	public static var NEXT_LONG_PRESS = 0x000800;
-	public static var PREVIOUS_LONG_PRESS = 0x001000;
+	public static var MENU_HOLD = 0x000200;
+	public static var PLAY_PAUSE_HOLD = 0x000400;
+	public static var NEXT_HOLD = 0x000800;
+	public static var PREVIOUS_HOLD = 0x001000;
 	
 	private static var dispatcher = new EventDispatcher ();
 	private static var initialized:Bool;

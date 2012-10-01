@@ -2,5 +2,5 @@
 	<user name="elyon"/>
 	<user name="elsassph"/>
 	<description>Add support for remote control input</description>
-    <version name="1.00">Initial version</version>
+    <version name="1.01">Renamed "LONG_PRESS" to "HOLD", added code for PLAY_PAUSE_HOLD</version>
 </project>
